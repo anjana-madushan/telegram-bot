@@ -1,0 +1,27 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Creating a telegram bot using node js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjana-madushan/telegram-bot.git"
+  },
+  "author": "Anjana Pasindu Madushan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjana-madushan/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/anjana-madushan/telegram-bot#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
