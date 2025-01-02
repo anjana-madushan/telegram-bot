@@ -12,6 +12,6 @@ app.use('/genie', router);
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(`Server is listening to Port 3000`);
 })
