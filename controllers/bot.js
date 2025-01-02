@@ -7,7 +7,7 @@ export const checkMessage = (req, res) => {
     return res.end("Who are you looking for here?🤔")
   }
 
-  axios.post("https://api.telegram.org/bot7872498207:AAFypltZMBD6pgp2MVW9dmirvc-lyadZSts",
+  axios.post("https://api.telegram.org/bot7872498207:AAFypltZMBD6pgp2MVW9dmirvc-lyadZSts/sendMessage",
     {
       chat_id: message.chat.id,
       text: "Hello, I am Genie 🧞‍♂️, it's nice to meet you😊"
