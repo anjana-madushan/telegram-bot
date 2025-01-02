@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export const checkMessage = (req, res) => {
+  console.log("Received message:", req.body);
   const { message } = req.body;
 
   if (!message || !message.text.toLowerCase().includes("genie")) {
