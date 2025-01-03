@@ -10,6 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use('/genie', router);
 app.get('/', (req, res) => {
+  console.log("Telegram Bot Server is running.");
   res.send("Telegram Bot Server is running.");
 });
 
