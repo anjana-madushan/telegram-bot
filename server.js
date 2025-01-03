@@ -8,10 +8,11 @@ dotenv.config();
 const app = express();
 
 app.use(bodyParser.json());
-app.use('/genie', router);
+
 app.get('/', (req, res) => {
   res.send("Genie Telegram Bot Server is running.");
 });
+app.use('/genie', router);
 
 const PORT = process.env.PORT || 3000;
 
