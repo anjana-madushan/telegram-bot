@@ -9,6 +9,9 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use('/genie', router);
+app.get('/', (req, res) => {
+  res.send("Telegram Bot Server is running.");
+});
 
 const PORT = process.env.PORT || 3000;
 
